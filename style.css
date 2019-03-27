@@ -629,3 +629,41 @@ box-shadow: 5px 10px 20px #888888;
 .footer_container {
   background-color: #33465a;
 }
+
+.footer_container .colmn:first-child {
+  margin-left: 13%;
+}
+.colmn {
+  float: left;
+  width: 20%;
+  height: 80px;
+  transform: translateY(50px);
+  color: white;
+}
+.colmn h4 {
+  font-weight: bold;
+}
+
+.colmn ul li {
+  list-style-type: none;
+  padding: 10px;
+  transform: translateY(-20px);
+  padding-left: 0px;
+}
+.colmn ul li a {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer_btn {
+  background-color: white;
+  padding: 5px;
+  width: 70%;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.social_footer i {
+  padding: 5px;
+}
